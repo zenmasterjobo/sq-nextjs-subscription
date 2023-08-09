@@ -2,7 +2,15 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Getting Started
 
-First, run the development server:
+First create a test seller on `developer.squaruep.com/apps`
+
+Copy the `.env.example` to `.env` and put your new access token for the test seller into the values of `SQUARE_ACCESS_TOKEN`
+
+```bash
+npm run seed
+```
+
+Now you are ready to start the app
 
 ```bash
 npm run dev
