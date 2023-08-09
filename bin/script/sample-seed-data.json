@@ -1,0 +1,82 @@
+{
+    "#Multiphase Gym Membership": {
+      "data": {
+        "type": "SUBSCRIPTION_PLAN",
+        "id": "#Multiphase Gym Membership",
+        "subscriptionPlanData": {
+          "name": "Gym Membership",
+          "phases": [
+            {
+              "type": "SUBSCRIPTION_PHASE",
+              "id": "#Gym Membership phase1",
+              "cadence": "MONTHLY",
+              "periods": 1,
+              "recurringPriceMoney": {
+                "amount": 100,
+                "currency": "USD"
+              }
+            },
+            {
+              "type": "SUBSCRIPTION_PHASE",
+              "id": "#Gym Membership phase2",
+              "cadence": "WEEKLY",
+              "recurringPriceMoney": {
+                "amount": 1500,
+                "currency": "USD"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "#Spa Service Addon": {
+      "data": {
+        "type": "SUBSCRIPTION_PLAN",
+        "id": "#Spa Service Addon",
+        "subscriptionPlanData": {
+          "name": "Spa Service Addon",
+          "phases": [
+            {
+              "type": "SUBSCRIPTION_PHASE",
+              "id": "#Spa Service Addon phase1",
+              "cadence": "WEEKLY",
+              "periods": 2,
+              "recurringPriceMoney": {
+                "amount": 0,
+                "currency": "USD"
+              }
+            },
+            {
+              "type": "SUBSCRIPTION_PHASE",
+              "id": "#Spa Service Addon phase2",
+              "cadence": "MONTHLY",
+              "recurringPriceMoney": {
+                "amount": 8000,
+                "currency": "USD"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "#Laundry Service Addon": {
+      "data": {
+        "type": "SUBSCRIPTION_PLAN",
+        "id": "#Laundry Service Addon",
+        "subscriptionPlanData": {
+          "name": "Laundry Service Addon",
+          "phases": [
+            {
+              "type": "SUBSCRIPTION_PHASE",
+              "id": "#Laundry Service Addon phase",
+              "cadence": "WEEKLY",
+              "recurringPriceMoney": {
+                "amount": 1000,
+                "currency": "USD"
+              }
+            }
+          ]
+        }
+      }
+    }
+  }
